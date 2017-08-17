@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+# Google Summer of Code
+
+## Paul Moritz Schaub - OMEMO Encrypted Jingle File Transfer in Smack
+
+Welcome to my Project page for my GSoC 2017 project!
 
 You can use the [editor on GitHub](https://github.com/vanitasvitae/GSOC2017/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
