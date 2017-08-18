@@ -6,7 +6,9 @@ Welcome to the project page of my GSoC 2017 project!
 
 The goal of my project was to implement Jingle File Transfer for [Smack](https://github.com/igniterealtime/Smack/). Smack is a client library for the [XMPP](https://xmpp.org/) protocol for Java and Android.
 
-XMPP stands for `eXtensible Message and Presence Protocol`. The focus lays on _extensible_. Many features are not part of the core specification, but instead are defined in so called XEPs (XMPP Extension Protocols). XEPs are numbered, so every XEP has a unique number and a name to identify it. The goal of my project was to implement XEP-0234 - Jingle File Transfer. In order to achieve this goal, I had to implement a whole number of other XEPs, since there are some transitive dependencies.
+XMPP stands for `eXtensible Message and Presence Protocol`. The focus lays on _extensible_. Many features are not part of the core specification, but instead are defined in so called XEPs (XMPP Extension Protocols). XEPs are numbered, so every XEP has a unique number and a name to identify it. The goal of my project was to implement XEP-0234 - Jingle File Transfer. In order to achieve this goal, I had to implement a whole number of other XEPs, since there are some transitive dependencies (see below).
+
+I documented my progress in weekly blog posts. Those can be found in my [blog](https://blogs.fsfe.org/vanitasvitae/category/xmpp/).
 
 ### XEP-0234 - Jingle File Transfer
 This XEP describes how two entities can exchange files using the Jingle Protocol. Jingle itself is another XEP which I also had to implement (see <a href="#xep0166">below</a>), since Jingle File Transfer is defined on top of it. 
@@ -57,7 +59,8 @@ This [blog post](https://blogs.fsfe.org/vanitasvitae/2017/08/02/gsoc-week-9-brin
 My draft specification can be found [here](https://geekplace.eu/xeps/xep-jet/xep-jet.html), while my prototype implementation can be found [here](https://github.com/vanitasvitae/Smack/tree/jingle3/smack-experimental/src/main/java/org/jivesoftware/smackx/jet) (only OMEMO encryption so far).
 
 ## Status
-Not all of my code has been merged into Smacks master branch yet. This is partially due to experimental features, which need approval by the XSF.
+Not all of my code has been merged into Smacks [master branch](https://github.com/igniterealtime/Smack/) yet. This is partially due to experimental features, which need approval by the XSF.
+Unmerged code can be found in [my repository](https://github.com/vanitasvitae/Smack/tree/jingle3).
 
 **Merged**
  - XEP-0166 - Jingle
