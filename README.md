@@ -81,3 +81,30 @@ Since my works is mostly invisible library code, I wrote a small application to 
 _XMPP_SYNC_ is a command line application, which can be used to synchronize files between computers via (encrypted) Jingle File Transfer.
 
 A blog post about _XMPP_SYNC_ can be found here and the source code for it is available in [this repository](https://github.com/vanitasvitae/xmpp_sync).
+
+## Feedback on XEPs
+
+### Mailing List
+During my time implementing the XEPs, I often gave feedback to the XSFs standards mailing list.
+
+ - [Encrypted Jingle File Transfers](https://mail.jabber.org/pipermail/standards/2017-June/032871.html)
+ - [Ciphers XEP?](https://mail.jabber.org/pipermail/standards/2017-July/033063.html)
+ - [XEP-0166 - Missing unsuported-security action](https://mail.jabber.org/pipermail/standards/2017-July/033084.html)
+ - [XEP-0166 - Multiple Contents in transport-info message](https://mail.jabber.org/pipermail/standards/2017-July/033075.html)
+ - [XEP-0234 - NonNegativeInteger](https://mail.jabber.org/pipermail/standards/2017-July/033069.html)
+ - [Jingle XEPs - Use of session-info vs. description-info](https://mail.jabber.org/pipermail/standards/2017-July/033079.html)
+ - [XEP-0234 - Wrong date format](https://mail.jabber.org/pipermail/standards/2017-August/033095.html)
+ - [XEP-0260 - Redundant DstAddr](https://mail.jabber.org/pipermail/standards/2017-August/033094.html)
+ - [XEP-0234 - Add option to request hash of offered file](https://mail.jabber.org/pipermail/standards/2017-August/033112.html)
+ - [XEP-0234 - Denote used hash function in session-initiate](https://mail.jabber.org/pipermail/standards/2017-August/033116.html)
+ - [XEP-0234 - Missing error condition for checksum mismatch](https://mail.jabber.org/pipermail/standards/2017-August/033126.html)
+
+### XEP PRs
+Whenever I could, I created Pull Request to address errors I found in the XEPs.
+
+ - [XEP-0065 - Remove duplicate example](https://github.com/xsf/xeps/pull/471)
+ - [Proto-XEP JET](https://github.com/xsf/xeps/pull/475)
+ - [XEP-0234 - Fix xml in examples](https://github.com/xsf/xeps/pull/478)
+ - [XEP-0234 - Add missing length attribute to XML schemas](https://github.com/xsf/xeps/pull/489)
+ - [XEP-0234 - Fix wrong date format to conform with XEP-0082](https://github.com/xsf/xeps/pull/491)
+ - [XEP-0234, XEP-0300 - Add hash-used element](https://github.com/xsf/xeps/pull/497)
