@@ -80,7 +80,8 @@ This is why I'm very happy to announce that my file transfer code has been succe
 Since my works is mostly invisible library code, I wrote a small application to demonstrate some features.
 _XMPP_SYNC_ is a command line application, which can be used to synchronize files between computers via (encrypted) Jingle File Transfer.
 
-A blog post about _XMPP_SYNC_ can be found here and the source code for it is available in [this repository](https://github.com/vanitasvitae/xmpp_sync).
+A blog post about _XMPP_SYNC_ can be found [here](https://blogs.fsfe.org/vanitasvitae/2017/08/14/149/) and the source code for it is available in [this 
+repository](https://github.com/vanitasvitae/xmpp_sync).
 
 ## Feedback on XEPs
 
