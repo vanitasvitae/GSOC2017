@@ -63,13 +63,15 @@ The following of my code has been merged into Smacks [master branch](https://git
 Unmerged code can be found in [my repository](https://github.com/vanitasvitae/Smack/tree/jingle3).
 
 **Merged**
- - XEP-0166 - Jingle
- - XEP-0260 - Jingle S5B
- - XEP-0261 - Jingle IBB
+ - XEP-0166 - Jingle (first iteration)
+ - XEP-0260 - Jingle S5B (first iteration)
+ - XEP-0261 - Jingle IBB (first iteration)
  - XEP-0300 - Hashes
  
-**Pending**
- - XEP-0234 - Jingle File Transfer (will be merged very soon)
+**Immediate Merge Pending**
+ - XEP-0234 - Jingle File Transfer
+ 
+**Prototypical Code**
  - XEP-xxxx - Jingle Encrypted Transports (will be merged after XEP-approval by the XSF)
  
 ## Interoperability
