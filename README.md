@@ -59,7 +59,7 @@ This [blog post](https://blogs.fsfe.org/vanitasvitae/2017/08/02/gsoc-week-9-brin
 My draft specification can be found [here](https://geekplace.eu/xeps/xep-jet/xep-jet.html), while my prototype implementation can be found [here](https://github.com/vanitasvitae/Smack/tree/jingle3/smack-experimental/src/main/java/org/jivesoftware/smackx/jet) (only OMEMO encryption so far).
 
 ## Status
-Not all of my code has been merged into Smacks [master branch](https://github.com/igniterealtime/Smack/) yet. This is partially due to experimental features, which need approval by the XSF.
+The following of my code has been merged into Smacks [master branch](https://github.com/igniterealtime/Smack/). Some parts are still missing, which is partially due to experimental features, which need approval by the XSF.
 Unmerged code can be found in [my repository](https://github.com/vanitasvitae/Smack/tree/jingle3).
 
 **Merged**
@@ -69,8 +69,8 @@ Unmerged code can be found in [my repository](https://github.com/vanitasvitae/Sm
  - XEP-0300 - Hashes
  
 **Pending**
- - XEP-0234 - Jingle File Transfer
- - XEP-xxxx - Jingle Encrypted Transports
+ - XEP-0234 - Jingle File Transfer (will be merged very soon)
+ - XEP-xxxx - Jingle Encrypted Transports (will be merged after XEP-approval by the XSF)
  
 ## Interoperability
 The whole point of XMPP is to avoid walled gardens, so there are many clients implementing many of the specified features. Ideally all clients are interoperable to one another (in reality it doesn't always go so well unfortunately).
