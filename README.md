@@ -111,3 +111,6 @@ Whenever I could, I created Pull Request to address errors I found in the XEPs.
  - [XEP-0234 - Add missing length attribute to XML schemas](https://github.com/xsf/xeps/pull/489)
  - [XEP-0234 - Fix wrong date format to conform with XEP-0082](https://github.com/xsf/xeps/pull/491)
  - [XEP-0234, XEP-0300 - Add hash-used element](https://github.com/xsf/xeps/pull/497)
+
+## Thanks!
+Big thanks to all, who welcomed me :)
